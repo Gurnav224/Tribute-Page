@@ -1,0 +1,305 @@
+/* universal css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+/* nav links css  start here */
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    background-color: rgb(30, 32, 35) ;
+    width: 99.7%;
+    margin-left: 1px;
+    margin-right: 2px;
+    height: 2.5rem;
+   padding-left: 10rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    z-index: 10;
+}
+
+.nav-link{
+     margin: 1rem;
+    padding: 0.1rem 0.6rem 1rem 0.8rem; 
+    height: 1.8rem;
+    text-align: center;
+    
+}
+.nav-link:hover{
+    border-radius: 3px;
+    background-color: grey;
+
+}
+
+.link{
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* nav-links css end here */
+
+
+/*  h1 title p description  css start here*/
+#HOME{
+    background-color: rgb(30, 32, 35);
+     height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    width: 50%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #fff; 
+    font-size: 1.3rem;
+}
+
+.title{
+    color: #fff;
+    padding-bottom: 4rem;
+    font-size: 4rem;
+}
+
+/* h1 title p description css end here */
+
+
+/* about section css start here */
+.about{
+    background-color: #bbd0ff;
+    width: 100%;
+       height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.about_section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_detail{
+    width: 500px;
+    padding: 1em;
+    margin-left: 1em;
+    margin-top: 3rem;
+    box-shadow: 15px 25px grey;
+    background-color: #fff;
+    
+}
+
+.img_container{
+     margin-left: 9em; 
+
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+   width: 70%;
+   margin: 0 auto;
+   line-height: 1.3;
+   padding-bottom: 1em;
+}
+.timeline-heading{
+    text-align: center;
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+
+hr{
+    padding-bottom: 5px;
+}
+
+
+.Awards-heading{
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.awards_section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6em;
+    margin-bottom:2em ;
+
+}
+.award{
+    width: 300px;
+    height: 100px;
+    background-color: #bbd0ff;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 15px 10px grey;
+    border-radius: 5px;
+}
+@media only  screen and (max-width: 1100px) {
+    .img_container{
+        margin-left: 6em; 
+
+   
+   }
+    
+}
+@media only  screen and (max-width: 990px) {
+    .img_container{
+        margin-left: 3em; 
+        margin-top: 5em;
+   
+   }
+    
+}
+@media only  screen and (max-width: 920px) {
+   .img_container{   
+    position: absolute;
+    top: 100rem;
+   }
+
+   .about{
+    height: 210vh;
+   }
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption{
+    width: 300px;
+}
+/* about section css end here */
+
+/* button css  start here */
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2rem 0 0 4rem;
+}
+.btn{
+    margin-left: 2rem;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 0.4rem;
+  
+}
+
+.learn-more{
+    background-color: gray;
+
+}
+
+.videos{
+background-color: red;
+
+}
+.book{
+    background-color: orange;
+}
+.link_learn-more{
+    color: #fff;
+    text-decoration: none;
+     margin-right: 1rem; 
+
+}
+.link2{
+    color:#fff;
+    text-decoration: none;
+     margin-right: 2rem; 
+}
+i{
+    margin:0  auto;
+    color: #fff;
+}
+.fa-wikipedia-w{
+    color: rgba(60, 51, 51, 0.895);
+}
+
+/* button css end here */
+
+.quote_section{
+    margin: 4rem 6px  4rem 2px;
+    width: 99.3%;
+  
+    height: 10rem;
+    background-color: rgb(19, 17, 17);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    
+}
+
+span{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.footer-div{
+    margin: 51px;
+}
+.footer-heading{
+    margin-bottom: 15px;
+    text-transform:capitalize ;
+    font-size: 1.8rem;
+}
+.footer-para{
+    padding-bottom: 5px;
+}
+a{
+    text-decoration:none ;
+    padding-left: 5px;
+    color: orange;
+}
+a:hover{
+    color: #bbd0ff;
+}
+
+.github-icon{
+    font-size: 1.1em;
+}
+
+.wikipedia-icon{
+    color: #fff;
+}
