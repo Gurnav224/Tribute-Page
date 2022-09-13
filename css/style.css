@@ -132,6 +132,9 @@ li{
 
 hr{
     padding-bottom: 5px;
+    background-color: #000;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -302,4 +305,81 @@ a:hover{
 
 .wikipedia-icon{
     color: #fff;
+}
+
+
+
+.main-container{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-container::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    background-color:#000 ;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.text-wrapper{
+    padding: 10px 40px;
+    width: 51%;
+    position: relative;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.text-wrapper::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    right: 2px;
+    background-color: grey;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    left: 50%;
+}
+
+.right::after{
+    left: -10px;
+}
+
+.content{
+    background-color: #00b4d8;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+}
+
+.content h3{
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #212121;
+}
+
+.content p{
+    color: #616161;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 2px;
+
+}
+
+
+ul,ol{
+    margin-top: 3rem;
 }
